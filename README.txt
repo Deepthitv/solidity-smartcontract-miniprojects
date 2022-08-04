@@ -27,6 +27,9 @@ Please note, require/import is supported in a limited manner for Remix supported
 For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
 For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
 
+Artifacts and Build Info folders with relevant files are created automatically
+By the Remix IDE at time of compile and deploy, hence not included in this project repo.
+
 
 Lottery algorithm:
 1. The lottery starts by accepting ETH transactions. Anyone having an Ethereum wallet can
